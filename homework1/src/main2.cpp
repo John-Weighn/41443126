@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-
 void computePowerset(const std::string& S, size_t index, std::string current) {
     if (index == S.length()) {
         std::cout << "{" << current << "} ";
